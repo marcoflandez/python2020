@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+</head>
+
+<body>
+    <div id="principal">
+        <form action="contacto.html" method="POST">
+            <h1 id="titulo">Mi formulario de registro</h1>
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre">
+            <br>
+            <label for="apellido">Apellido:</label>
+            <input type="text" id="apellido" name="apellido">
+            <br>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email">
+            <br>
+            <label for="pass">Contraseña:</label>
+            <input type="password" id="pass" name="pass">
+            <br>
+            <label for="pass2">Confirmar:</label>
+            <input type="password" id="pass2" name="pass2">
+            <br>
+            <label for="cumple">Cumpleaños:</label>
+            <input type="date" id="cumple" name="cumple">
+            <br> <br>
+            <label for="masculino">Hombre</label>
+            <input type="radio" id="masculino" name="genero" value="masculino">
+            <label for="femenino">Mujer</label>
+            <input type="radio" id="femenino" name="genero" value="femenino">
+            <label for="otro">Otro</label>
+            <input type="radio" id="otro" name="genero" value="otro">
+            <br>
+            <p><strong>Una breve descripcion de ti:</strong></p>
+            <textarea name="descripcion"></textarea>
+            <br>
+            <h4><strong>Lenguaje Favorito:</strong></h4>
+            <select name="Lenguaje Favorito">
+                <option value="JavaScript">JavaScript</option>
+                <option value="Python">Python</option>
+                <option value="Prefiero-No-Decir">Prefiero No Decir</option>
+            </select>
+            <br><br>
+            <input type="submit" value="Enviar"><br>
+        </form>
+    </div>
+</body>
+
+</html>
