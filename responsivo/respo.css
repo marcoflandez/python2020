@@ -1,0 +1,53 @@
+    div {
+    background-color: rgb(173, 147, 147);
+}
+
+.title {
+    background-color: grey;
+}
+
+.content {
+    background-color: rgb(161, 192, 161);
+}
+
+p {
+    background-color: gray;
+}
+
+@media only screen and (max-width: 480px) {
+    .desktop {
+        display: none;
+    }
+    .tablet {
+        display: none;
+    }
+    .movil {
+        width: 100%;
+        display: block
+    }
+}
+
+@media only screen and (min-width: 481px) {
+    .desktop {
+        display: none;
+    }
+    .tablet {
+        widows: 100%;
+        display: block;
+    }
+    .movil {
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 1024px) {
+    .desktop {
+        display: block;
+        width: 100%;
+    }
+    .tablet {
+        display: none;
+    }
+    .movil {
+        display: none;
+    }
